@@ -255,7 +255,7 @@ protected void onCreate(Bundle savedInstanceState) {
 
 参考：原文链接：https://blog.csdn.net/hq942845204/article/details/81185693
 
+[Android关于AutoService、Javapoet讲解]: Android关于AutoServic:https://github.com/ybb963416867/JavaPoetForAndroid/blob/master/Android%E5%85%B3%E4%BA%8EAutoService%E3%80%81Javapoet%E8%AE%B2%E8%A7%A3.md	"Android关于AutoService、Javapoet讲解"
 
 
-[[Android关于AutoServic]: https://github.com/ybb963416867/JavaPoetForAndroid/blob/master/Android%E5%85%B3%E4%BA%8EAutoService%E3%80%81Javapoet%E8%AE%B2%E8%A7%A3.md	"Android关于AutoService、Javapoet讲解"
 
