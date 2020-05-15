@@ -1,2 +1,4 @@
 rootProject.name='JavaPoetForAndroid'
 include ':app'
+include ':javapoet'
+include ':annotation_lib'
