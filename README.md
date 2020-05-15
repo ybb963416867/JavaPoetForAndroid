@@ -186,6 +186,7 @@ public class HelloProcessor extends AbstractProcessor {
 }
 
 ```
+
 }
 
 上述代码中，一定不要忘了加AutoService的注解，通过这个注解，我们的HelloProcessor注解处理器相当于执行了一个注册的过程，这样才会被jvm在编译时加载，代码生成部分最终生成的文件代码长下面这个样子，可以结合注释对着体会下，还是很方便的，有了javapoet之后
@@ -245,6 +246,7 @@ protected void onCreate(Bundle savedInstanceState) {
      }
 }
 ```
+
 编译运行，看到Hello Java Poet字样即表示成功！
 
 然后我们上面提到，除了使用Google开源库auto实现注册注解处理器外，还可以使用手动配置的方式，手动配置的方式如下
@@ -252,3 +254,8 @@ protected void onCreate(Bundle savedInstanceState) {
 在自定义注解处理器的module中，这里也就是javapoet的module中，在main目录下创建出resources目录，然后在resources目录下创建出META-INF目录，然后在META-INF目录下创建出services目录，然后在services目录下创建一个名为javax.annotation.processing.Processor 的文件，在该文件中声明我们的注解处理器：
 
 参考：原文链接：https://blog.csdn.net/hq942845204/article/details/81185693
+
+
+
+[[Android关于AutoServic]: https://github.com/ybb963416867/JavaPoetForAndroid/blob/master/Android%E5%85%B3%E4%BA%8EAutoService%E3%80%81Javapoet%E8%AE%B2%E8%A7%A3.md	"Android关于AutoService、Javapoet讲解"
+
