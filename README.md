@@ -1,4 +1,3 @@
-# JavaPoetForAndroid
 # Android(Java)代码生成技术--JavaPoet自动实现依赖注入
 
 ## 前言
